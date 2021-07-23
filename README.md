@@ -3,7 +3,7 @@
 
 *A central repository to link to documentation and projects related to cat-shaped bluetooth thermal printers. PRs encouraged.*
 
-# Protocol implementations
+## Protocol implementations
 
 In chronological order:
 
@@ -21,20 +21,31 @@ connection has been established, even though "Connected" and "Services Resolved"
 are displayed in `bluetoothctl`. I'm guessing this is a locking issue involving
 the CondVar, or something like that?
 
-# Protocol docs
+## Protocol docs
 
 WerWolv's [blog post](https://werwolv.net/blog/cat_printer) contains initial docs from RE of the Android app, however more is now known.
 
 TODO: consolidate what is now known.
 
-# Hardware
+## Hardware
 
-Three different model names (included in bluetooth advertisements) have been observed:
+Four different model names (included in bluetooth advertisements) have been observed:
 
-| Name     | Known owners (colour variant)    |
-|----------|----------------------------------|
-| GB01     | WerWolv (Blue), Iris (Blue)      |
-| GB02     | the6p4c (Pink)                   |
-| GT01     | JJJollyjim (Pink), xssfox (Pink) |
-| YHK-C200 | Stary2001 (Blue)                 |     
+### GB01
+#### Known owners
++ WerWolv (blue)
++ Iris (blue)
 
+### GB02
+#### Known owners
++ the6p4c (pink)
+
+### GT01
+#### Known owners
++ JJJollyjim (pink)
++ xssfox (pink)
+
+### YHK-C200 
+
+#### Known owners
++ Stary2001 (blue)   
