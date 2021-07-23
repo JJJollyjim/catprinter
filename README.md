@@ -33,7 +33,7 @@ Three different model names (included in bluetooth advertisements) have been obs
 
 | Name     | Known owners (colour variant)    |
 |----------|----------------------------------|
-| GB01     | WerWolv (Blue)                   |
+| GB01     | WerWolv (Blue), Iris (Blue)      |
 | GB02     | the6p4c (Pink)                   |
 | GT01     | JJJollyjim (Pink), xssfox (Pink) |
 | YHK-C200 | Stary2001 (Blue)                 |     
