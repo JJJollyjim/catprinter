@@ -36,16 +36,63 @@ Four different model names (included in bluetooth advertisements) have been obse
 + WerWolv (blue)
 + Iris (blue)
 
+#### Internal photos
+See [WerWolv's blog post](https://werwolv.net/blog/cat_printer).
+
+#### Notable components
++ JL MCU with built-in Bluetooth (model number not clearly readable)
+
 ### GB02
 #### Known owners
 + the6p4c (pink)
+
+#### Internal photos
+
+![1](photos/the6p4c/image0.jpg)
+![2](photos/the6p4c/image1.jpg)
+
+#### Notable components
++ JL MCU with built-in Bluetooth (model number not clearly readable)
 
 ### GT01
 #### Known owners
 + JJJollyjim (pink)
 + xssfox (pink)
 
+#### Internal photos
+
+![1](photos/jjjollyjim/1.jpg)
+![2](photos/jjjollyjim/2.jpg)
+![3](photos/jjjollyjim/3.jpg)
+
+#### Notable components
++ JL MCU with built-in Bluetooth. Markings: JL BP02989-56C4
+
+#### USB Behaviour
+Does not enumerate. Data lines are routed, however. perhaps it's used for programming, as described [here](https://github.com/christian-kramer/JieLi-AC690X-Familiarization)?
+
 ### YHK-C200 
 
 #### Known owners
-+ Stary2001 (blue)   
++ Stary2001 (blue)
+
+#### Internal photos
+
+![1](photos/stary/1.jpg)
+![2](photos/stary/2.jpg)
+![3](photos/stary/3.jpg)
+
+#### Notable components
++ GD32F303 (STM32 clone)
++ BARROT bluetooth module
++ Fentech SPI Flash
++ Unpopulated UART header
+
+#### USB Behaviour
+Enumerates as an HID device!
+
+```
+[15361.648980] usb 7-3: Product: Print-M200
+[15361.648981] usb 7-3: Manufacturer: Pintron-M200
+[15361.648982] usb 7-3: SerialNumber: pintronhid0000001
+```
