@@ -31,9 +31,10 @@ TODO: consolidate what is now known.
 
 Three different model names (included in bluetooth advertisements) have been observed:
 
-| Name | Known owners (colour variant)    |
-|------|----------------------------------|
-| GB01 | WerWolv (Blue)                   |
-| GB02 | the6p4c (Pink)                   |
-| GT01 | JJJollyjim (Pink), xssfox (Pink) |
+| Name     | Known owners (colour variant)    |
+|----------|----------------------------------|
+| GB01     | WerWolv (Blue)                   |
+| GB02     | the6p4c (Pink)                   |
+| GT01     | JJJollyjim (Pink), xssfox (Pink) |
+| YHK-C200 | Stary2001 (Blue)                 |     
 
