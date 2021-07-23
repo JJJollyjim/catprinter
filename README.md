@@ -48,8 +48,9 @@ See [WerWolv's blog post](https://werwolv.net/blog/cat_printer).
 
 #### Internal photos
 
-![1](photos/the6p4c/image0.jpg)
-![2](photos/the6p4c/image1.jpg)
+| Front (assembled) | Back |
+|---|---|
+| ![1](photos/the6p4c/image0.jpg) | ![2](photos/the6p4c/image1.jpg) |
 
 #### Notable components
 + JL MCU with built-in Bluetooth (model number not clearly readable)
@@ -61,9 +62,9 @@ See [WerWolv's blog post](https://werwolv.net/blog/cat_printer).
 
 #### Internal photos
 
-![1](photos/jjjollyjim/1.jpg)
-![2](photos/jjjollyjim/2.jpg)
-![3](photos/jjjollyjim/3.jpg)
+| Front (assembled) | Back | JL Chip (closeup) |
+|---|---|---|
+| ![1](photos/jjjollyjim/1.jpg) | ![2](photos/jjjollyjim/2.jpg) | ![3](photos/jjjollyjim/3.jpg) |
 
 #### Notable components
 + JL MCU with built-in Bluetooth. Markings: JL BP02989-56C4
@@ -78,9 +79,9 @@ Does not enumerate. Data lines are routed, however. perhaps it's used for progra
 
 #### Internal photos
 
-![1](photos/stary/1.jpg)
-![2](photos/stary/2.jpg)
-![3](photos/stary/3.jpg)
+| Front (assembled)         | Back                    | Back (closeup)          |
+|--------------------------|--------------------------|--------------------------|
+| ![1](photos/stary/1.jpg) | ![2](photos/stary/2.jpg) | ![3](photos/stary/3.jpg) |
 
 #### Notable components
 + GD32F303 (STM32 clone)
