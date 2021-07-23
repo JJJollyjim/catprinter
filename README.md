@@ -23,7 +23,9 @@ the CondVar, or something like that?
 
 # Protocol docs
 
-...
+WerWolv's [blog post](https://werwolv.net/blog/cat_printer) contains initial docs from RE of the Android app, however more is now known.
+
+TODO: consolidate what is now known.
 
 # Hardware
 
