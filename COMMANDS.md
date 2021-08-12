@@ -103,7 +103,7 @@ I haven't looked into this.
 
 ## `0xAE` - Flow control
 
-blueUtil doesn't send this command; it only receives it. The parameter is one byte: `0x10` to stop transmitting, or `0x00` to resume transmitting. The stop-transmission command is meant to be followed immediately, on the packet layer, but that doesn't appear to be possible to do in most BLE APIs.
+blueUtils doesn't send this command; it only receives it. The parameter is one byte: `0x10` to stop transmitting, or `0x00` to resume transmitting. The stop-transmission command is meant to be followed immediately, on the packet layer, but that doesn't appear to be possible to do in most BLE APIs.
 
 ## `0xAF` - Energy
 
@@ -144,3 +144,9 @@ This is how it works with known cat printers:
 ## `0xBE` - Drawing mode
 
 One byte parameter, `0x00` for image mode, `0x01` for text mode. Note, image data gets sent to the printer in the same format in both modes --- it just tells the printer whether dithering or threshold/edge-detection is being used. Honestly, I have no idea why it needs to know.
+
+## `0xBF` - Print (compressed)
+
+This command is now understood,
+
+TODO: but not by me yet.
