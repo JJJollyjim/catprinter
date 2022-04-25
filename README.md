@@ -14,6 +14,7 @@ In chronological order:
 | [the6p4c / catteprinter](https://github.com/the6p4c/catteprinter)                           | the6p4c's Rust library                                                                              | btleplug (Rust)   | **Windows**<sup>1</sup>              |
 | [JJJollyjim / PyCatte](https://github.com/JJJollyjim/PyCatte)                               | A barebones Python implementation                                                                   | Bleak (Python)    | **Linux**                  |
 | [xssfox / print_server.py](https://gist.github.com/xssfox/b911e0781a763d258d21262c5fdd2dec) | Featureful Python implementation with an HTTP API, text rendering, and PostScript printing.         | Bleak (Python)    | **Linux**                  |
+| [jo-m / gocatprint](https://github.com/jo-m/gocatprint)                                     | A barebones Golang implementation                                                                   | github.com/go-ble/ble | **Linux**                  |
 
 <sup>1</sup>: Appears to be broken on Linux due to an issue where btleplug never
 correctly recieves the dbus property-change message which notifies it that a
